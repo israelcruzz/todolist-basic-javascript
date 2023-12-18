@@ -22,7 +22,7 @@ Um aplicativo simples de lista de tarefas construído com HTML, CSS e JavaScript
 
 <img src="src/img/deisgn-todo.png" />
 
-Você pode visualizar uma demonstração ao vivo da Lista de Tarefas [aqui](#).
+Você pode visualizar uma demonstração ao vivo da Lista de Tarefas [aqui](https://israelcruzz.github.io/todolist-basic-javascript/).
 
 ## Instalação
 
