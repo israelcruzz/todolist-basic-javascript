@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body{
+    background-color: rgb(10, 10, 10);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    width: 620px;
+    padding: 20px;
+    background-color: rgb(50, 51, 51);
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    border-radius: 10px;
+}
+
+.title{
+    text-align: center;
+    border-bottom: 1px solid #d2d2d2;
+    margin-bottom: 24px;
+    padding: 12px;
+}
+
+.input-add{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.inpt{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+#add{
+    flex-grow: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+
+.sub{
+    width: 50px;
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+    transition: all ease-in-out .3s;
+    font-weight: 600;
+}
+
+.sub:hover{
+    background-color: #FFF;
+    color: #000000;
+}
+
+.lists{
+    display: flex;
+    flex-direction: column;
+}
+
+.list{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    padding: 24px;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.title-atv{
+    font-size: 16px;
+}
+
+.btns{
+    display: flex;
+    gap: 12px;
+}
+
+.delete,
+.edit,
+.check{
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.check:hover{
+    background-color: #0a4f02;
+    color: #FFF;
+}
+
+.delete:hover{
+    background-color: #b20505;
+    color: #FFF;
+}
+
+.edit:hover{
+    background-color: #0551ba;
+    color: #FFF;
+}
+
+.active{
+    background-color: rgb(7, 211, 0);
+    text-decoration: line-through;
+}
+
+.btn-active{
+    background-color: #000000;
+    color: #FFF;
+}
+
+.hidden{
+    display: none;
+}
